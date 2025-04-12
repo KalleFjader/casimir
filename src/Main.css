@@ -1,0 +1,87 @@
+.main-content {
+    padding: 20px;
+
+    text-align: center;
+    background-color: #fff6ec;
+    min-height: 100vh; /* full screen height */
+    box-sizing: border-box;
+  }
+  
+  .main-content h1 {
+    color: #333;
+    font-size: 2.5rem;
+  }
+  
+  .main-content p {
+    color: #666;
+    font-size: 1.2rem;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .main-image {
+    width: 400px;
+  }
+  
+
+  .placeholder-image{
+
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+
+ .infobox{
+  font-size: 20px;
+  padding-top: 40px;
+  text-align: center;
+  
+ }
+
+ @media (max-width: 768px) {
+
+  /* Center text better in infobox */
+  .infobox {
+    width: 90%;
+    padding: 20px;
+  }
+
+  /* Make images shrink */
+  .main-image {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+  }
+
+  /* Center the contact form */
+  .contact-form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .infotext{
+    width: 300px;
+  }
+
+  .main-content p {
+    font-size: 15px;
+    width: 90%;         /* shrink width to fit screen */
+    max-width: 500px;   /* don't let it grow too wide */
+    margin: 0 auto;     /* center it */
+    word-wrap: break-word; /* break long words if needed */
+    padding-top: 30px;
+  }
+
+  .main-content h1 {
+    font-size: 30px;
+    width: 90%;         /* shrink width to fit screen */
+    max-width: 500px;   /* don't let it grow too wide */
+    margin: 0 auto;     /* center it */
+    word-wrap: break-word; /* break long words if needed */
+  }
+
+  .placeholder-image {
+    width: 90%;
+  }
+}
