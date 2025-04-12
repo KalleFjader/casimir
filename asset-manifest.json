@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/casimir/static/css/main.467d0904.css",
+    "main.js": "/casimir/static/js/main.97fa5370.js",
+    "static/js/453.47932c1d.chunk.js": "/casimir/static/js/453.47932c1d.chunk.js",
+    "static/media/casubil2.png": "/casimir/static/media/casubil2.28d580c038d552a4f067.png",
+    "static/media/placeholder.png": "/casimir/static/media/placeholder.35cad1d4e896c1dd6062.png",
+    "index.html": "/casimir/index.html",
+    "main.467d0904.css.map": "/casimir/static/css/main.467d0904.css.map",
+    "main.97fa5370.js.map": "/casimir/static/js/main.97fa5370.js.map",
+    "453.47932c1d.chunk.js.map": "/casimir/static/js/453.47932c1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.467d0904.css",
+    "static/js/main.97fa5370.js"
+  ]
+}
