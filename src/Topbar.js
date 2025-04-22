@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { GoHomeFill } from "react-icons/go";
 import { FaInfoCircle, FaPhone } from "react-icons/fa";
 import './Topbar.css';
+import { FaMoneyBill } from 'react-icons/fa';
 
 function Topbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,7 +46,7 @@ function Topbar() {
 
       {/* Website Title */}
       <div className='topbar-center'>
-        <Link to="home" className="topbar-title">CASIMIR</Link>
+        <Link to="home" className="topbar-title">KONEVUOKRAUS</Link>
       </div>
 
       <div className="topbar-right"></div>
@@ -53,13 +54,16 @@ function Topbar() {
       {/* Sidebar */}
       <div ref={sidebarRef} className={`sidebar ${menuOpen ? "open" : ""}`}>
         <Link to="home" className="sidebar-link1" onClick={toggleMenu}>
-          <GoHomeFill style={{ marginRight: '8px' }} /> Hem
+          <GoHomeFill style={{ marginRight: '8px' }} /> Kotisivu
         </Link>
         <Link to="about" className="sidebar-link" onClick={toggleMenu}>
-          <FaInfoCircle style={{ marginRight: '8px' }} /> Om oss
+          <FaInfoCircle style={{ marginRight: '8px' }} /> Koneet
         </Link>
+        <Link to="hinnasto" className="sidebar-link" onClick={toggleMenu}>
+  <FaMoneyBill style={{ marginRight: '8px' }} /> Hinnasto
+</Link>
         <Link to="contact" className="sidebar-link" onClick={toggleMenu}>
-          <FaPhone style={{ marginRight: '8px' }} /> Kontaktuppgifter
+          <FaPhone style={{ marginRight: '8px' }} /> Yhteystiedot
         </Link>
       </div>
     </div>
