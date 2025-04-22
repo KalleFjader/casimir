@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/casimir/static/css/main.467d0904.css",
-    "main.js": "/casimir/static/js/main.97fa5370.js",
+    "main.css": "/casimir/static/css/main.210fc14e.css",
+    "main.js": "/casimir/static/js/main.31523e09.js",
     "static/js/453.47932c1d.chunk.js": "/casimir/static/js/453.47932c1d.chunk.js",
-    "static/media/casubil2.png": "/casimir/static/media/casubil2.28d580c038d552a4f067.png",
-    "static/media/placeholder.png": "/casimir/static/media/placeholder.35cad1d4e896c1dd6062.png",
+    "static/media/bucketai.png": "/casimir/static/media/bucketai.b459d852ec7f26c68cde.png",
+    "static/media/avantai.png": "/casimir/static/media/avantai.ce2c1f9490c6556bbd39.png",
+    "static/media/casusavant.jpg": "/casimir/static/media/casusavant.b2557e09a9e211ffa1b0.jpg",
+    "static/media/map.png": "/casimir/static/media/map.95c05349f4f22632931e.png",
     "index.html": "/casimir/index.html",
-    "main.467d0904.css.map": "/casimir/static/css/main.467d0904.css.map",
-    "main.97fa5370.js.map": "/casimir/static/js/main.97fa5370.js.map",
+    "main.210fc14e.css.map": "/casimir/static/css/main.210fc14e.css.map",
+    "main.31523e09.js.map": "/casimir/static/js/main.31523e09.js.map",
     "453.47932c1d.chunk.js.map": "/casimir/static/js/453.47932c1d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.467d0904.css",
-    "static/js/main.97fa5370.js"
+    "static/css/main.210fc14e.css",
+    "static/js/main.31523e09.js"
   ]
 }
